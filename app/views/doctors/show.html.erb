@@ -7,4 +7,7 @@
 
 <% @doctor.patients.each do |patient| %>
   <p>Current Patients - <%= patient.name %>
+
+  <%= button_to "Remove Patient #{patient.name}" %>
+  # doctorpatient_path(doctorpatient.id), method: :delete</p> %> (This line is part of line above, placed down to check if button showed up on page )
 <% end %>
