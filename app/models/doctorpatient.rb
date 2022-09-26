@@ -1,5 +1,5 @@
-class doctorpatient < ApplicationRecord
-  belongs_to :doctors
-  belongs_to :patients 
+class Doctorpatient < ApplicationRecord
+  belongs_to :doctor
+  belongs_to :patient 
 
 end
